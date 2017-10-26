@@ -1,0 +1,268 @@
+\documentclass[12pt, DIV9, BCOR9mm, onecolumn, headsepline, ngerman]{scrreprt} 
+% anderer Documentclasses: scrreprt, scrartcl
+%%Prambel
+
+%%Pakete laden
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+%\usepackage[]{natbib}
+\usepackage{graphicx}
+
+\usepackage{textcomp}
+\usepackage[a4paper, left=3cm, right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[onehalfspacing]{setspace} 
+\usepackage{jurabib}
+\usepackage{enumitem}
+\usepackage[scaled]{helvet}
+\usepackage{pdfpages}
+\usepackage{chngcntr} 
+\counterwithout{footnote}{chapter}
+
+\jurabibsetup{
+	commabeforerest,
+%	ibidem=strict,
+%	citefull=first,
+	see,
+	titleformat={colonsep},
+}
+
+\DeclareUnicodeCharacter{00B0}{\textdegree}
+
+\pagenumbering{Roman}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\setlength{\parindent}{0em} 
+\setlength{\parskip}{0.5em}
+\RedeclareSectionCommand[
+  beforeskip=-1\baselineskip,
+  afterskip=.5\baselineskip]{chapter}
+\addtokomafont{chapter}{\fontsize{22}{22}\selectfont}
+
+ 
+%\titlehead{Titelkopf}
+\title{Kommunikation im Betrieb - Istzustand und Verbesserungsvorschläge}
+\subtitle{In der PEGASUS Werbeagentur GmbH}
+\author{\\[1cm]Oskar Borek \\ Matrikelnummer: 70470909 } 
+\date{\today}
+\subject{Prüfungsarbeit des Moduls Kommunikation, Führung und Selbstmanagement}
+\publishers{Dozentin \\ Gisela E. Meier-Maletz}
+
+
+\begin{document} 
+
+%Ausgabe der Titelseite mit den Informationen aus der Präambel
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+% \pagestyle{empty}
+% \pagestyle{plain}
+\pagestyle{headings}
+\pagenumbering{arabic}
+
+
+\chapter{Einleitung}
+
+Der Erfolg eines Unternehmens hängt maßgeblich mit dem Output der Mitarbeiter zusammen. Durch gute Beziehung zu seinem Umfeld empfindet der Mensch Glück. Es ist also für beide Seiten gewinnbringend wenn die zwischenmenschlichen Beziehungen im Unternehmen gut sind. In dieser Prüfungsarbeit soll am konkreten Fall der PEGASUS Werbeagentur GmbH, die Kommunikation untersucht werden und Verbesserungsvorschläge aufgeführt werden. Dabei beschränkt sich diese Arbeit ausschließlich auf die interne Kommunikation.
+PEGASUS ist eine Fullservice Agentur, die 1993 in Magdeburg gegründet wurde. Derzeit sind 15 Mitarbeiter beschäftigt.
+
+Diese Prüfungsarbeit gliedert sich in drei Teile. Im ersten Teil wird auf die Kommunikation im Allgemeinen eingegangen. Der zweite Teil beschäftigt sich mit dem Istzustand bei PEGASUS, um dann anschließend auf die Verbesserungsvorschläge einzugehen.
+
+
+\chapter{Allgemeine Kommunikation in Betrieben}
+\section{Grundlagen der Kommunikation} 
+
+Damit man die Kommunikation in einem Betrieb analysieren und nachhaltig verbessern kann, ist es unabdingbar sich mit den grundsätzlichen Prinzipien der Kommunikation zwischen Menschen zu beschäftigen.
+
+Das Modell von Claude Shannon und Warren Weaver reduziert den Kommunikationsprozess auf das Wesentliche und bringt somit die entscheidenen Faktoren hervor. Auf der einen Seite gibt es einen Sprecher (Sender) und auf der anderen einen Hörer (Empfänger). Zwischen diesen beiden wird eine Information ausgetauscht, welche Gefahr läuft, auf dem Weg Teile der Information zu verlieren. Die Abbildung 2.1 zeigt, dass ebenfalls nonverbale Kommunikation in diesem Modell berücksichtigt wurde. Darüberhinaus wird sie als Beispiel aufgeführt, dass die menschliche Kommunikation Möglichkeiten bietet, die Gefahr des Informationsverlustes zu reduzieren.\footcite[vgl.][S.33f]{GehmKommunikation}
+
+
+\begin{figure}[htbp]
+\caption{Model zur Beschreibung zwischenmenschlicher Kommunikation}
+\centering
+\includegraphics[width=0.8\linewidth]{src/model_verlusttreppe_entwurf}
+\end{figure}
+
+Die Informationsverlusttreppe zeigt auf den vier Stufen, Meinen, Sagen, Hören und Verstehen, die Etappen, die eine Information durchläuft. Hier wird die Gefahr des Informationsverlustes deutlich, denn das Gemeinte ist nicht gleich dem Gesprochenen, das Hören kann durch äußere Einflüsse erschwert werden und das der Empfänger das Gehörte so versteht, wie es der Sender meinte, ist somit eine echte Herausforderung.\footcite[vgl.][S.33f]{GehmKommunikation}
+
+Das Modell von Friedmann Schulz von Thun, das Vier-Seiten-Modell, beschreibt hingegen, dass jede Aussage zwangsläufig auf vier verschiedenen Arten wirkt. Er benennt diese Botschaften wie folgt:
+\begin{itemize}
+\item eine Sachinformation
+\item eine Selbstkundgabe
+\item ein Beziehungshinweis
+\item ein Appell
+\end{itemize}
+
+Das Modell stellt diese Botschaften als Quadrat dar und Sender und Empfängen kommunizieren auf diesen Ebenen gleichzeitig.
+
+\begin{figure}[htbp]
+\caption{Das Vier-Seiten-Modell}
+\centering
+\includegraphics[width=0.8\linewidth]{src/abbildung_kommunikationsquadrat}
+\end{figure}
+
+
+Bei der \textbf{Sachinformation} geht es um die konkrete und explizite Information.
+%- wahrheitskreterium, Relevanz, Hinlänglichkeit
+
+Die \textbf{Beziehungs-Seite} besagt, dass man in jeder Äußerung zu erkennen gibt, in welcher Beziehung man seinem  Gegenüber steht. Dies kann durch die Art der Formulierung, den Tonfall oder der Mimik geschehen.
+
+Die \textbf{Selbstkundgabe-Seite} beschreibt, dass in der Botschaft immer Aufschlüsse über die Persönlichkeit und das Empfinden des Senders enthalten sind.
+
+Der \textbf{Apell} beschreibt die Forderung in einer Botschaft.
+
+Das Modell zeigt also, dass ein Sender aus einer bestimmten Absicht heraus versucht eine Aussage über einen dieser Ebenen zu kommunizieren. Wohingegen der Empfänger   diese Information auf einer ganz anderen Ebene empfangen kann.
+
+Nur anhand dieser beiden Modelle wird deutlich welche Bedeutungsvielfalt eine Aussage haben kann und somit werden auch die hohen Anforderung an die Kommunikation zwischen Menschen aufgezeigt.
+\footcite[vgl.][S.33f]{SchulzMiteinander}
+
+
+\section{Kommunikation im beruflichen Alltag} 
+
+Es steht außer Frage das der Erfolg eines Unternehmens, unabhäng von der Branche, zum großen Teil davon abhängt, wie gut die Kommunikation in und um die eigentlichen Arbeitsprozesse herum funktioniert. Der Austausch von Informationen ist essentiell, sowie auch ein harmonisches Team erfolgreicher Arbeiten wird.
+Die Anforderungen im betrieblichen Alltag steigen aus verschiedenen Gründen, wie zum Beispiel Theo Gehm sagt: \glqq Die enormen technischen Entwicklungen erhöhen die Notwendigkeit, Gespräche zu führen\grqq\footcite[vgl.][S.21]{GehmKommunikation}. Weitere Gründe sind die zuhnehmende Individualisierung des einzelnen, fachliche Spezialisten oder die breite der vorherschenden Wertevorstellungen.\footcite[vgl.][S.23]{GehmKommunikation}
+
+Obwohl der Begriff Betriebsklima sich sehr facettenreich definieren lässt, ist unbestritten, dass das Betriebsklima in Wechselwirkung mit der Kommunikation in einem Unternehmen steht. Entstehen positive zwischenmenschliche Beziehungen, bildet dies die Basis für ein gutes Betriebsklima.\footcite[vgl.][S.48ff]{SabelSprechen} Im folgenden wird das Thema Führung als Schwerpunkt behandelt, denn um eine Verbesserung der Kommunikation im Allgemeinen hervor zuführen, ist es am sinnvollsten bei dem Führungspersonal zu beginnen. Denn erst wenn diese es korrekt vorleben, können sie Einfluss darauf nehmen, die Kommunikation der anderen zu verbessern.\footcite[vgl.][S.23f]{SchulzMiteinander}
+
+Für das Führungspersonal ergeben sich im Alltag verschiedene Situationen in denen es Mitarbeitergespräche führt. Diese Gespräche lassen sich in Arten einteilen, wobei hier nur auf die relevantesten eingegangen wird. Die Kommunikation abseits der betrieblichen Prozesse werden hier nicht weiter behandelt.
+
+%- Zielvereinbarungsgespräch (--> Ziel-/Arbeitsüberprüfungsgespräch)
+In \textbf{Zielvereinbarungsgesprächen} werden gemeinsam Ziele festgelegt. Es werden die auf den Mitarbeiter zukommenden Anforderungen benannt und der Vorgesetzt formuliert seine Erwartungen. Die Sinnhaftigkeit dieses Gesprächs hängt natürlich von dem definierten Ziel ab. Außerdem müssen im folgenden die Gesprächsarten \glqq Ziel- und Arbeitsüberprüfung\grqq{} und \glqq Beurteilungsgespräch\grqq{}  angefügt werden.\footcite[vgl.][S.51f]{MentzelMitarbeiter}
+
+%- Feedback
+Das \textbf{Feedbackgespräch} ist von hoher Bedeutung, denn durch regelmäßiges Feedback können Missverständnisse vermieden werden. Erst wenn ich weiß auf was mein Gegenüber Wert legt, kann ich ihn zukünftig damit bedienen. Zum einen bietet die durch Lob resultierende Anerkennung viel positive Energie und zum anderen ist es wichtiger, Kritik nicht als Tadel zu sehen, stattdessen aber das Potential von dem guten Umgang mit Fehlern und Fehlverhalten zu sehen.\footcite[vgl.][S.67f]{MentzelMitarbeiter}
+
+%- Unterweisungsgespräch
+Das \textbf{Unterweisungsgespräch} gehört zu den wohl alltäglichsten. Hierbei geht es um die Weitergabe von Fertigkeiten und Kenntnissen. Die Präzision der Unterweisung ist ausschlaggebend für den Erfolg einer Aufgabe. So können Fehler und doppelte Arbeit vermieden werden.
+%In der Praxis zahlt sich die Vier-Stufen-Methode aus. Sie besteht aus der Vorbereitung, Erklären und vormachen, Nachmahcen lassen und dem Abschluss.\footcite[vgl.][S.80f]{MentzelMitarbeiter}
+
+
+\chapter{IST Zustand bei PEGASUS}
+
+
+\section{Kommunikation im Berufsalltag bei PEGASUS} 
+
+Um eine sinnvolle Analyse und Bewertung des IST-Zustands vornehmen zu können, gilt es zunächst die Rahmenbedingungen der Kommunikation bei PEGASUS zu benennen. Das bedeutet, neben einem allgemeinen Einblick in das Unternehmen, zu betrachten, welches die Situationen sind in denen kommuniziert wird und welche Kommunikationskanäle werden genutzt.
+
+PEGASUS arbeitet in einem Großraumbüro mit 15 Mitarbeitern. Die Hierachien lassen sich grundsätzlich in Geschäftsführung, Abteilungsleiter und Produktion einteilen. Aus der Breite des Leistungsspektrums resultiert, dass das Personal aus verschieden spezialisierten Fachrichtungen besteht. Etwas pauschalisiert bedeutet dies, dass ein extravertierter Projektleiter, ein freigeistiger Designer, sowie ein introvertierter Programmieren effektiv untereinander Kommunizieren müssen.
+
+Die häufigsten regelmäßigen Meeting Formate sind Dailys, Projektmeetings, der \glqq Projekte Check\grqq sowie die \glqq Personal Sprints\grqq. In den Dailys bespricht der Abteilungsleiter mit dem Mitarbeiter die an diesem Tag anstehenden Aufgaben und priorisiert diese. Die Projektmeetings hingegen werden mit 3-5 Personen abgehalten und behandeln den Status des Projektes, die anstehenden Aufgaben und halten alle Teammitglieder auf dem nötigen Wissensstand.
+Einmal wöchentlich findet der \glqq Projekte Check\grqq statt. Hier werden im Rahmen aller Projektleiter kurz die Status aller Projekte angesprochen und bestimmte Eckdaten kontrolliert. 
+Das in diesem Kontext am bedeutendste Format ist der \glqq Personal Sprint\grqq. Es wurde erst vor einem Jahr eingeführt und wird bisher mit 6 Mitarbeitern in verschiedenen Zeitintervallen, 1-4 Wochen Rhythmus, regelmäßig durchgeführt. 
+Der Personal Sprint verfolgt drei Ziele:
+
+\begin{itemize}
+\item Personalentwicklung: Zielvereinbarung, Zielüberprüfung/-bewertung
+\item Feedback: Raum für Lob und Kritik vom Mitarbeiter und Unternehmen
+\item Wertschätzung: Zeit für den Mitarbeiter neben dem Alltagsgeschäft
+\end{itemize}
+
+Neben der eigentlichen Arbeit findet Kommunikation natürlich permanent statt. Besonders beim täglichen gemeinsamen Frühstück sowie Mittagessen am großen Tisch. Außerdem gibt es nach Feierabend gelegentlich Aktionen wie das \glqq Agenturkino\grqq oder dem \glqq Feierabendbier\grqq.
+
+In der täglichen Arbeit werden neben der verbalen Kommunikation natürlich auch andere Kanäle verwendet, wenn Mitarbeiter Informationen austauschen. Auch über Email, Skype oder das Projektmanagement-Tool wird kommuniziert. Zwar haben diese gewisse Vorteile, andererseits stellen Sie eine große Herausforderungen an die Kommunikation, denn viele relevante Faktoren, die der Empfänger verarbeitet, können nicht übermittelt werden und somit entsteht viel Potential für Missverständnisse.
+
+
+\section{Mitarbeiterbefragung zur Kommunikation bei PEGASUS} 
+Da die Betrachtung der Kommunikation in einem Unternehmen durch eine einzelne Person zwangsläufig subjektiv ist, somit auch keine brauchbare Grundlage für Verbesserungsansätze bietet, wurde eine anonyme Mitarbeiterbefragung durchgeführt.\\
+
+ 
+\textbf{Zusammenfassung des Ergebnisses}\footnote{Vollständiges Ergebnis, sowie Antworten und Hinweistexte sind in Anhang A zu finden}
+
+\textit{1. Du wirst von einem Kollegen oder Vorgesetzten gelobt. Wie \glqq gut\grqq empfindest du das Lob?}\\
+Der Großteil empfindet das Lob gut bis sehr gut.
+
+\textit{2. Findest du, dass du ausreichend oft gelobt wirst?}\\
+Obwohl die meisten sich angemessen oft gelobt fühlen, empfindet jeder fünfte Mitarbeiter, dass er mehr Lob erhalten müsste.
+
+\textit{3. Du wirst von einem Kollegen oder Vorgesetzten kritisiert. Wie \glqq gut\grqq empfindest du die Kritik?}\\
+Das Ergebnis ist ähnlich der Frage nach Lob, wobei hier ein geringerer Teil die Kritik für sehr gut hält.
+
+\textit{4. Wie empfindest du die Kommunikation im Meeting?}\\
+Das alle Teilnehmer die Kommunikation für gut befinden und die zwischenmenschlichen Beziehungen für positiv erachten, zeugt natürlich von einem guten Betriebsklima und zeigt, dass die Mitarbeiter schon gewisse Fähigkeiten guter Kommunikation besitzen.
+
+\textit{5. Hast du das Gefühl, dass das Feedback welches du Kollegen gibst (positiv wie negativ), richtig aufgenommen wird?}\\
+Zwar wählten 60\% noch ein "gut", die übrigen verteilten sich dann aber auf die schlechteren Bewertungen.
+
+\textit{6. Findest du es werden die zutreffenden Kommunikationskanäle gewählt?}\\
+Auch hier sind die meisten der Meinung das der Istzustand gut ist, allerdings empfindet nur eine Person die gewählten Kanäle für sehr gut und zwei Personen sogar entsprechend schlechter.
+
+
+\chapter{Verbesserung der Kommunikation bei PEGASUS}
+
+
+\section{Führungspersonal als Multiplikator}
+
+Möchte man Einfluss auf die Kommunikation innerhalb eines Unternehmens nehmen, gibt es natürlich vielerlei Ansätze. Aufgrund der Tatsache, dass die Kommunikation nur dann gut sein kann, wenn alle Mitarbeiter in der Lage sind gut zu kommunizieren, ist das Führungspersonal eine entscheidende Schlüsselrolle. Das Ideal einer Führungskraft bildet die Verbindung von Souveränität und Professionalität im Einklang mit Menschlichkeit. Das Spannungsfeld bewegt sich also zwischen Effektivität (Zielen und Aufgaben) und 	Humanität (zufriedene Mitarbeiter und gute Atmosphäre).\footcite[vgl.][S.13ff]{SchulzMiteinander}
+
+Es ist also äußerst wichtig, dass jede Führungsperson versteht, dass Sie bei sich selbst beginnen muss.\footcite[vgl.][S.23f]{SchulzMiteinander} Das Vorleben guter Kommunikation ist zum einen der erste Lernprozess für die Mitarbeiter und außerdem eine essentielle Grundlage um einen Veränderungsprozess anzustoßen. Wenn also jemand Erwartungen ausspricht, die er selber nicht erfüllt, so geht dies zu Lasten seiner Souveränität. So sagt auch Herbert Sabel: \glqq Sag mir, wie du mit deinen Mitarbeitern sprichst, und ich sage Dir, was du von deinen Mitarbeitern zu erwarten hast!\grqq \footcite[S.24]{SabelSprechen}
+
+Das bedeutet konkret, dass man das Führungspersonal bei der Weiterbildung von Kommunikationstechniken unterstützen muss. Das kann im Rahmen von Coachings oder Weiterbildung stattfinden. Ein wesentlich unverbindlicherer Ansatz wäre ein Austausch zwischen dem Führungspersonal, denn durch Reflektion und Erfahrungsaustausch kann schon viel Veränderung geschaffen werden.
+
+In einer nächsten Phase ist es dann die Aufgabe des Führungspersonals selbst die Rolle des Coaches zu übernehmen. Bei PEGASUS gibt bereits ein Format welches gleichzeitig zwei der hier erwähnten Ansätze aufnehmen kann, den \glqq Personal Sprint\grqq. Zum ersten kann das Führungspersonal in einem festen Rahmen Gesprächstechniken anwenden. Also beispielsweise ganz konkret ein Zielvereinbarungsgespräch führen. Für den nächsten Schritt gibt dieses Format den Raum, den Mitarbeiter für bestimmte Situationen zu schulen. So könnte man dem Mitarbeiter Hilfestellung geben, wie er anderen eine Aufgabe delegiert.
+
+
+%-> Anreiz durch Motivation, denn Sie profitieren ja auch wiederum davon
+%- Format PS ist ~intuitiv entstanden --> wissenschaft. untermauern
+
+\section{Das Thema Kommunikation als ständiger Begleiter}
+
+Neben der gezielten Schulung des Führungspersonals ist ein weiterer Ansatz das Bewusstsein für die Vorteile von guter Kommunikation zu schaffen. Die Fragen eins und drei aus der Umfrage zeigen, wie die Mitarbeiter die Qualität von Feedback empfinden und das es hier noch Verbesserungspotential gibt. Auf der anderen Seite geht aus der Frage 5 hervor, dass die Mitarbeiter das Bedürfnis haben, dass Ihr Feedback besser aufgenommen wird. Hier besteht also bereits ein Bewusstsein, welches weiter ausgebaut werden kann und somit guten Nährboden für einen Veränderungsprozess bietet.
+
+Ein für jeden nachvollziehbarer erster Schritt könnte eine ausgeprägt Feedbackkultur sein. Es wäre also denkbar das sich die Beteiligten bewusst mit den Rollen Feedbackgeber und Feedbackempfänger im Vorfeld beschäftigen. Es wird vereinbart, dass in den folgenden Meetings bewusst Feedback gegeben wird. Sofern diese Situationen reflektiert werden ist der Prozess bereits im Fluss.\footcite[vgl.][S.128ff]{HofbauerDasMitarbeiterg} Diese Maßnahme würde auch dem negativ Anteil der Frage zwei entgegen wirken.
+
+% Bewusstsein für die notwendikeit guter kommunikation schaffen
+
+%Ziel formulierung als bsp, dass jeder Gesprächstechniken können muss --> wie -> gehm 72
+
+% feedback kultur
+% Mitarbeitern versuchen zu vermitteln wie gutes feedback geht
+
+%- häufiger feedback über kommunikation einholen
+
+%Feedback nehmen und geben-> hofbauer 128
+
+\section{Betriebsklima als Grundlage und Potential}
+
+%- Mehr aktion um Betriebsallter herum
+%Arbeitsklima -> .... durch klatsch und small talk stellen wir sicher, das wir noch miteinander reden können.->gehm71
+% gestaltung des Betriebsklimas sabel72
+
+Unabhängig von den Maßnahmen, die darauf abzielen das Personal zu entwickeln, lässt sich zusätzlich der Faktor des Umfeldes beeinflussen. Also die bereits erwähnte positive Wechselwirkung zwischen Betriebsklima und Kommunikation. Dass heißt es gilt Situationen zu schaffen, bei denen es nicht um betriebliche Angelegenheiten geht, sondern die zwischenmenschlichen Beziehungen im Vordergrund stehen. Ähnlich formuliert es Theo Gehm: \glqq Durch \frqq{}Small Talk\flqq{}, Klatsch und Floskeln stellen wir also sicher, daß wir nach wie vor miteinander reden können und wollen.\grqq\footcite[S.71]{GehmKommunikation} Da es bei PEGASUS schon einige Aktionen außerhalb des Arbeitsalltags gibt, muss hier hier also lediglich für die Beständigkeit gesorgt werden. Das heißt, es muss kontrolliert werden, dass die Aktionen regelmäßig stattfinden und auch neue Ideen umgesetzt werden. Darüber hinaus sollte es auch Veranstaltungen geben, bei denen die Geschäftsleitung nicht teilnimmt, um eventuellen hierarchischen Einschränkungen entgegenzuwirken.
+
+
+
+
+\chapter{Fazit}
+
+Das Ergebnis der Analyse zeigt, dass der Istzustand bei PEGASUS durchaus einige wichtige Faktoren für gute Kommunikation im Betrieb abdeckt. So gibt es regelmäßige Formate die viele theoretische Grundprinzipien der betrieblichen Kommunikation beinhalten. Auch das Ergebnis der Mitarbeiterbefragung deutet daraufhin, dass auch aus Sicht der Mitarbeiter grundsätzlich ein positiver Zustand herrscht.\\
+Dennoch ist auch deutlich geworden, welche enorme Wichtigkeit und Potential in diesem Thema steckt. Nur die Betrachtung der hier dargelegten Grundlagen, welche nur ein Bruchteil darstellen, verdeutlicht die Vielfalt der Möglichkeiten mit denen man Einfluss auf die Kommunikation nehmen kann.\\
+Die drei in dieser Arbeit genannten Ansätze sind realistisch und plausibel und es spricht nichts dagegen diese Integration vorzunehmen. Es ist also zu wünschen, dass die positive Wechselwirkung von Kommunikation und Betriebsklima damit weiter gestützt wird.
+
+
+
+\newpage
+\nocite{*} 
+\bibliographystyle{jurabib}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis} 
+%% Weiter Styles: plain, abbrv, alpha, unsrt, apalike
+\bibliography{KFS_Quellen}
+\newpage
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+Eigene Darstellung in Anlehnung an Theo Gehm
+\newpage
+\begin{appendix} 
+\chapter{Anhang}
+
+\includepdf{src/Umfrage_fragen_1.pdf}
+\includepdf{src/Umfrage_fragen_2.pdf}
+\includepdf{src/Umfrage_1.pdf}
+\includepdf{src/Umfrage_2.pdf}
+
+\end{appendix}
+
+\end{document}
